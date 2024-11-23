@@ -1,0 +1,1 @@
+print( sum([i for i in range(18163107) if str(i).count('0') > len(str(i))//2]) )
